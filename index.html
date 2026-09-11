@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Ticket Booking App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .movie-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .movie {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 15px;
+            width: 250px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 10px;
+        }
+        .movie img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+        .movie h2 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+        }
+        .movie p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .book-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .book-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎬 Movie Ticket Booking</h1>
+    <div class="movie-container">
+        <div class="movie">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Inception_ver3.jpg" alt="Inception Poster">
+            <h2>Inception</h2>
+            <p>Genre: Sci-Fi</p>
+            <p>Duration: 148 mins</p>
+            <p>Language: English</p>
+            <a href="#" class="book-btn">Book Tickets</a>
+        </div>
+        <div class="movie">
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d7/RRR_Poster.jpg" alt="RRR Poster">
+            <h2>RRR</h2>
+            <p>Genre: Action</p>
+            <p>Duration: 180 mins</p>
+            <p>Language: Telugu</p>
+            <a href="#" class="book-btn">Book Tickets</a>
+        </div>
+        <div class="movie">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg" alt="Avengers Endgame Poster">
+            <h2>Avengers: Endgame</h2>
+            <p>Genre: Superhero</p>
+            <p>Duration: 181 mins</p>
+            <p>Language: English</p>
+            <a href="#" class="book-btn">Book Tickets</a>
+        </div>
+    </div>
+</body>
+</html>
+
